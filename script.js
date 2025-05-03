@@ -77,7 +77,7 @@ function startTimer() {
 function endGame() {
     document.getElementById('game-section').style.display = 'none';
     document.getElementById('video-section').style.display = 'block';
-    document.getElementById('birthday-video').src = 'none'; 
+    document.getElementById('birthday-video').src = 'video.mov'; 
 
     bgMusic.pause();   
     bgMusic.currentTime = 0; 
